@@ -33,7 +33,7 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 
 ## Test Cases
 
-| Identifier                                                        | Status   | Test case in [TG DS-nz](#ref_TG_DS_NZ)  |
+| Identifier                                                        | Status   | Test case in [TG DS-NZ](#ref_TG_DS_NZ)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
 | [Basic test](./basic.md)  | ready for review  | A.1.1, (A.6.1)  |
 
