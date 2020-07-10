@@ -15,7 +15,7 @@ The following checks shall be performed for every feature in the dataset.
 * ObservedEventCoverage
 	* The [rangeSet](#rangeSetOEC) shall be described by magnitude or intensity, or by the likelihood of occurence.
 * RiskCoverage
-	*The [rangeSet](#rangeSetRC) shall be described by level or intensity.
+	* The [rangeSet](#rangeSetRC) shall be described by level or intensity.
 
 
 **Reference(s)**: 
