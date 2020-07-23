@@ -39,6 +39,6 @@ constraintViolation <a name="constraintViolation"/>  |  XML document '$filename'
 
 The namespace prefixes used as described in [README](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression                     
----------------------------------------------------------- | -------------------------------------
-domainSet <a name="domainSet"></a> | //schema-element(nz-core:ExposedElementCoverage)/gml:domainSet/gml:RectifiedGrid<br>//schema-element(nz-core:HazardCoverage)/gml:domainSet/gml:RectifiedGrid<br>//schema-element(nz-core:ObservedEventCoverage)/gml:domainSet/gml:RectifiedGrid<br>//schema-element(nz-core:RiskCoverage)/gml:domainSet/gml:RectifiedGrid
+Abbreviation                                               |  XPath expression                     |Multiplicity       |Voidable
+---------------------------------------------------------- | --------------------------------------|-------------------|----------
+domainSet <a name="domainSet"></a> | //schema-element(nz-core:ExposedElementCoverage)/gml:domainSet/gml:RectifiedGrid<br>//schema-element(nz-core:HazardCoverage)/gml:domainSet/gml:RectifiedGrid<br>//schema-element(nz-core:ObservedEventCoverage)/gml:domainSet/gml:RectifiedGrid<br>//schema-element(nz-core:RiskCoverage)/gml:domainSet/gml:RectifiedGrid | 1 | No
