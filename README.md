@@ -7,7 +7,7 @@ The specification specifies the following conformance classes:
 | Conformance class | Standardization target |
 | ----------------- | ---------------------- |
 | [GML application schemas, Natural Risk Zones](http://inspire.ec.europa.eu/id/ats/data-nz/3.0/nz-gml) | INSPIRE spatial data set encoded in GML, Natural Risk Zones features |
-| [Application Schema, Natural Risk Zones](http://inspire.ec.europa.eu/id/ats/data-nz/3.0/nz-enz-as) | INSPIRE spatial data set |
+| [Application Schema, Natural Risk Zones](http://inspire.ec.europa.eu/id/ats/data-nz/3.0/nz-as) | INSPIRE spatial data set |
 | [Reference Systems, Natural Risk Zones](http://inspire.ec.europa.eu/id/ats/data-nz/3.0/nz-rs) | INSPIRE spatial data set |
 | [Data Consistency, Natural Risk Zones](http://inspire.ec.europa.eu/id/ats/data-nz/3.0/nz-dc) | INSPIRE spatial data set |
 | [Information Accessibility, Natural Risk Zones](http://inspire.ec.europa.eu/id/ats/data-nz/3.0/nz-ia) | INSPIRE spatial data set |
