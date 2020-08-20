@@ -26,7 +26,7 @@ An indirect dependency is another conformance class whose requirements must be m
 
 | Specification | Conformance class | Related resource | Parameters |
 | ------------- | ----------------- | ---------------- | ---------- |
-| [TG DS-NZ](#ref_TG_DS_NZ) | [GML application schema, Natural Risk Zones Simple](../nz-gml/README.md) | INSPIRE spatial data set encoded in GML, Natural Risk Zones features | n/a |
+| [TG DS-NZ](#ref_TG_DS_NZ) | [GML application schema, Natural Risk Zones](../nz-gml/README.md) | INSPIRE spatial data set encoded in GML, Natural Risk Zones features | n/a |
  
 ## Feature types <a name="feature-types"></a>
 
