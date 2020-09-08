@@ -59,6 +59,7 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 
 | Identifier                                                        | Status   | Test case in [TG DS-NZ](#ref_TG_DS_NZ)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
+| [Code list values](./code-list-values.md)  | Draft  | A.1.3  |
 | [Constraints](./constraints.md)  | Draft  | A.1.6  |
 | [domainSet Constraints](./domainSet-constraints.md)  | Draft  | A.1.6  |
 | [rangeSet Constraints](./rangeSet-constraints.md)  | Draft  | A.1.6  |
