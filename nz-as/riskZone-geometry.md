@@ -31,7 +31,7 @@ Verify that the OCL constraints that are specified in the UML model of the appli
 Identifier  |  Message text (parameters start with '$')
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 constraintViolation <a name="constraintViolation"/>  |  XML document '$filename', $featureType '$gmlid': The constraint '$constraint' is violated.
-reviewConstraintOverlapId <a name="reviewConstraintOverlapId"/>  |  XML document '{filename}', {featureType} '{gmlid}': The property '{property}' has a value '{value}' that is referencing to an association, plese review that RiskZone and the {element} are overlapping.
+reviewConstraintOverlapId <a name="reviewConstraintOverlapId"/>  |  XML document '{filename}', {featureType} '{gmlid}': The property '{property}' has a value '{value}' that is referencing to an association, please review that RiskZone and the {element} are overlapping.
 reviewConstraintOverlapUrl <a name="reviewConstraintOverlapId"/>  |  XML document '{filename}', {featureType} '{gmlid}': The property '{property}' has a value '{value}' that is referencing to an association, please review that is represented using the {element}, also RiskZone and the {element} are overlapping.
 
 ## Contextual XPath references
