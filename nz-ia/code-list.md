@@ -8,13 +8,9 @@
 
 * Verify that any code list extensions are publicly accessible via HTTP, i.e. inspect extensible code list vanzed property elements. If a reference (@xlink:href) has a value that does not start with http://inspire.ec.europa.eu/codelist/, verify that a HTTP GET request to the URI retrieves a document. Otherwise report [brokenLink](#brokenLink).
 
-This data theme currently has the following extensible code lists:
-
-* [ExposedElementCategoryValue](#ExposedElementCategoryValue) : http://inspire.ec.europa.eu/codelist/ExposedElementCategoryValue
+This data theme currently has the following empty code lists:
 
 * [SpecificExposedElementTypeValue](#SpecificExposedElementTypeValue) :  http://inspire.ec.europa.eu/codelist/SpecificExposedElementTypeValue
-
-* [NaturalHazardCategoryValue](#NaturalHazardCategoryValue) : http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue
 
 * [SpecificHazardTypeValue](#SpecificHazardTypeValue) : http://inspire.ec.europa.eu/codelist/SpecificHazardTypeValue
 
@@ -38,14 +34,8 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression      |Multiplicity   |Voidable
 ---------------------------------------------------------- | -----------------------|---------------|---------------------------------
-ExposedElementCategoryValue <a name ="ExposedElementCategoryValue"></a>	| //schema-element(nz-core:ExposedElement)/nz-core:assessmentOfVulnerability/nz-core:VulnerabilityAssessment/nz-core:typeOfElement/nz-core:ExposedElementClassification/nz-core:exposedElementCategory/@xlink:href | 1 (The parent is optional) | No
-ExposedElementCategoryValue <a name ="ExposedElementCategoryValue"></a>	| //schema-element(nz-core:ExposedElementCoverage)/nz-core:typeOfElement/nz-core:ExposedElementClassification/nz-core:exposedElementCategory/@xlink:href | 1 (The parent is optional) | No
 SpecificExposedElementTypeValue <a name ="SpecificExposedElementTypeValue"></a>	| //schema-element(nz-core:ExposedElement)/nz-core:assessmentOfVulnerability/nz-core:VulnerabilityAssessment/nz-core:typeOfElement/nz-core:ExposedElementClassification/nz-core:specificExposedElementType/@xlink:href | 1 | Yes
 SpecificExposedElementTypeValue <a name ="SpecificExposedElementTypeValue"></a>	| //schema-element(nz-core:ExposedElementCoverage)/nz-core:typeOfElement/nz-core:ExposedElementClassification/nz-core:specificExposedElementType/@xlink:href | 1 | Yes
-NaturalHazardCategoryValue <a name ="NaturalHazardCategoryValue"></a> | //schema-element(nz-core:ObservedEvent)/nz-core:typeOfHazard/nz-core:NaturalHazardClassification/nz-core:hazardCategory/@xlink:href | 1 | No
-NaturalHazardCategoryValue <a name ="NaturalHazardCategoryValue"></a> |  //schema-element(nz-core:HazardArea)/nz-core:typeOfHazard/nz-core:NaturalHazardClassification/nz-core:hazardCategory/@xlink:href | 1 | No
-NaturalHazardCategoryValue <a name ="NaturalHazardCategoryValue"></a> |//schema-element(nz-core:RiskZone)/nz-core:sourceOfRisk/nz-core:NaturalHazardClassification/nz-core:hazardCategory/@xlink:href | 1 | No
-NaturalHazardCategoryValue <a name ="NaturalHazardCategoryValue"></a> |  //schema-element(nz-core:ExposedElement)/nz-core:assessmentOfVulnerability/nz-core:VulnerabilityAssessment/nz-core:sourceOfVulnerability/nz-core:NaturalHazardClassification/nz-core:hazardCategory/@xlink:href | 1 (The parent is optional) | No
 SpecificHazardTypeValue <a name ="SpecificHazardTypeValue"></a>	| //schema-element(nz-core:ObservedEvent)/nz-core:typeOfHazard/nz-core:NaturalHazardClassification/nz-core:specificHazardType/@xlink:href | 1 | Yes
 SpecificHazardTypeValue <a name ="SpecificHazardTypeValue"></a>	| //schema-element(nz-core:HazardArea)/nz-core:typeOfHazard/nz-core:NaturalHazardClassification/nz-core:specificHazardType/@xlink:href | 1 | Yes
 SpecificHazardTypeValue <a name ="SpecificHazardTypeValue"></a>	| //schema-element(nz-core:RiskZone)/nz-core:sourceOfRisk/nz-core:NaturalHazardClassification/nz-core:specificHazardType/@xlink:href | 1 | Yes
